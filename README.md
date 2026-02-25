@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Group Room Gold
 
-# Run and deploy your AI Studio app
+A premium, facilitator-ready group therapy curriculum for substance use and mental health treatment programs by Serena Pierce.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/da12428a-980b-4d37-bedb-1cfc5b997a0a
+Group Room Gold is a professional web application designed to support facilitators in delivering high-quality group therapy sessions. It features a curated curriculum, licensing resources, and contact information for professional inquiries.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- **Curriculum Access**: Structured content for group therapy sessions.
+- **Licensing Information**: Details on institutional and individual licensing.
+- **Professional Contact**: Direct communication channels for inquiries.
+- **Responsive Design**: Optimized for various devices.
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Routing**: React Router
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/group-room-gold.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd group-room-gold
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+### Development
+
+To start the development server:
+
+```bash
+npm run dev
+```
+
+### Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The output will be in the `dist` directory.
+
+## License
+
+[Add License Information Here]
+
+## Contact
+
+For inquiries, please contact:
+- Email: serena16602@gmail.com
+- Phone: 561-384-9054
